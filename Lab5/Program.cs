@@ -17,6 +17,7 @@ for(int i = 0; i < numStudents; i++)
     if(i == 0)
     {
         Console.Write($"Please enter the {i + 1}st students full name: ");
+        
     }
     //the second students to be 2nd
     else if(i == 1)
@@ -52,7 +53,7 @@ do{
     {
         DisplaySpecificStudentInformation(names, userNames, studentId, studentLockers, userChoice);
     }
-    
+
 }while(userChoice != -1);
 
 
